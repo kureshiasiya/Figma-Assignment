@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Arial, sans-serif;
+}
+
+.upper-section {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+h1 {
+  /* margin-top: 0; */
+  font-size: 50px;
+}
+footer {
+  background-color: black;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  margin-top: 20px; /* Push the footer to the bottom */
+  width: 100%;
+}
+.welcome {
+  color: white;
+}
+
+.to-chaintech {
+  display: inline-block;
+}
+
+.chaintech {
+  background-image: linear-gradient(
+    to right,
+    #00ffa7,
+    #ffff00
+  ); /* Gradient color */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  background-clip: text;
+  color: transparent; /* Hide the original text */
+}
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.get-started {
+  background-color: white;
+  color: black;
+
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+.arrow {
+  margin-left: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+.top-right-section {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding-right: 50px;
+  margin-left: 15px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  margin: 2px;
+  padding: 0;
+  align-items: center;
+
+  /* margin-right: 10px; */
+}
+.navigation img {
+  top: 20px; /* Adjust the top position as needed */
+  left: 50px; /* Adjust the left position as needed */
+  margin-right: 190px; /* Adjust as needed for spacing between image and text */
+}
+
+.navigation li {
+  display: inline;
+  margin-right: 40px;
+  /* float: right; */
+}
+
+/* .navigation li:last-child {
+  margin-right: 5px;
+} */
+.navigation li img {
+  float: left;
+}
+.navigation li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  text-decoration: underline;
+}
+
+.services-section h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.services-section p {
+  margin-left: 100px;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Center the flex container horizontally */
+  padding-right: 5px; /* Add some padding around the flex container */
+  padding-left: 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Prevent boxes from wrapping onto the next line */
+}
+
+.box {
+  width: calc(25% - 20px); /* Set the width of each box */
+  height: 300px; /* Set the height of each box */
+  background-color: #f2f2f2; /* Light gray background */
+  margin: 5px;
+  border-radius: 20px; /* Apply rounded corners */
+  border: 2px solid black;
+}
+
+.title {
+  font-size: 15px; /* Font size for the title */
+  margin-left: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 14px; /* Font size for the subtitle */
+  text-align: center;
+  font-weight: bolder;
+}
+
+.explore-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  float: right;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Center the flex container horizontally */
+  /* padding: 100px;  */
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Prevent boxes from wrapping onto the next line */
+}
+
+.box-photo {
+  width: 100%; /* Set the width of the photo to 100% of its container */
+  height: 140px; /* Maintain the aspect ratio of the photo */
+  border-top-left-radius: 20px; /* Apply rounded corners to the top left */
+  border-top-right-radius: 20px; /* Apply rounded corners to the top right */
+}
+.inner-divider {
+  border-top: 1px solid black; /* Set the border color to black */
+  margin-top: 10px; /* Add some space between the subtitle and the divider */
+}
+.divider {
+  border-top: 1px solid black; /* Set the border color to black */
+  margin-top: 10px;
+}
+/* Style for the footer divider */
+.footer-divider {
+  border-top: 1px solid white; /* Define the border style */
+  margin-top: 20px; /* Add some space between the footer content and the divider */
+}
+
+/* Optional style for the additional line of text */
+.footer-text {
+  color: #666;
+  font-size: 15px;
+  text-align: center;
+}
+
+.explore-button {
+  background-color: white; /* Blue color for the button */
+  color: black; /* White text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border-radius: 15px; /* Apply rounded corners */
+  border: 2px solid black;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: -4px;
+}
+.box:nth-child(4n + 2) {
+  background-color: rgb(177, 222, 250); /* Lighter gray background */
+}
+.box:nth-child(4n + 3) {
+  background-color: rgb(250, 208, 215); /* Lighter gray background */
+}
+.box:nth-child(4n + 1) {
+  background-color: rgb(192, 244, 192); /* Lighter gray background */
+}
+.box:nth-child(4n + 4) {
+  background-color: plum; /* Lighter gray background */
+}
+/* Define gradient colors */
+
+.footer-content img {
+  text-align: center;
+  /* margin-left: 400px; */
+}
+.image-and-title {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center items vertically */
+}
+
+.box-img {
+  width: 15px; /* Set the width of the image */
+  height: 15px; /* Set the height of the image */
+  margin-right: 10px; /* Add some space between the image and the title */
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.explore-button {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.explore-button .arrow {
+  background-color: rgb(91, 252, 91);
+  color: black;
+  border-radius: 20px;
+}
+.explore-button.clicked {
+  background-color: black;
+  color: white;
+}
+.navigation a:hover {
+  color: green;
+}
+
+.explore-button.active {
+  background-color: black; /* Change to the desired color */
+  /* Additional styles for the active state */
+  color: white;
+}
+.logo {
+  max-width: 100px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 5px;
+
+  left: 10px;
+  top: 10px;
+}
