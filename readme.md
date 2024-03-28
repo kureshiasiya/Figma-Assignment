@@ -1,2 +1,2 @@
-Figma/Assignment
-![alt text](SS.png)
+Assignment
+![alt text](readme.png)
