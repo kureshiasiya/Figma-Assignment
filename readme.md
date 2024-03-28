@@ -1,2 +1,2 @@
 #Figma/Assignment
-![alt text](Figma%20.png)
+![alt text](SS.png)
